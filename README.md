@@ -12,4 +12,4 @@ source venv/Scripts/activate
 4. Установить зависимости
 pip install -r requirements.txt
 
-5. Вписать в файл .env nbz и пароль пользователя
+5. Вписать в файл .env имя и пароль пользователя
