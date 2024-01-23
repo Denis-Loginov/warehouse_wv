@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Добавление локации{% endblock %}
+
+{% block content %}
+    <h1>Добавление новой локации</h1>
+    <div class="col-8">
+    <form method="POST" action="/addloc">
+        <div class="form-group">
+            <label for="name">Укажите наименование новой локации:</label>
+            <input type="text" class="form-control" name="name">
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Сохранить</button>
+    </form>
+</div>
+    <a href="/" class="btn btn-secondary mt-3">Назад</a>
+
+{% endblock %}
